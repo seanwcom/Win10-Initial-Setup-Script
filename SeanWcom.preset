@@ -1,14 +1,14 @@
 ##########
-# Win 10 / Server 2016 / Server 2019 Initial Setup Script - Default preset
-# Author: Disassembler <disassembler@dasm.cz>
-# Version: v3.3, 2018-10-22
-# Source: https://github.com/Disassembler0/Win10-Initial-Setup-Script
+# Win 10 / Server 2016 / Server 2019 Initial Setup Script - SeanWcom preset
+# Author: SeanWcom <sean@sjx3.com>
+# Version: v1.0, 2018-12-14
+# Source: https://github.com/seanwcom/Win10-Initial-Setup-Script
 ##########
 
 ### Require administrator privileges ###
 RequireAdmin
 
-## ### Privacy Tweaks ###
+### Privacy Tweaks ###
 DisableTelemetry                # EnableTelemetry
 DisableWiFiSense                # EnableWiFiSense
 # DisableSmartScreen            # EnableSmartScreen
@@ -28,7 +28,7 @@ DisableErrorReporting           # EnableErrorReporting
 DisableDiagTrack                # EnableDiagTrack
 DisableWAPPush                  # EnableWAPPush
 HideRecentJumplists             # ShowRecentJumplists
- 
+
 ### Security Tweaks ###
 # SetUACLow                     # SetUACHigh
 # EnableSharingMappedDrives     # DisableSharingMappedDrives
@@ -123,7 +123,6 @@ HideSyncNotifications           # ShowSyncNotifications
 HideRecentShortcuts             # ShowRecentShortcuts
 SetExplorerThisPC               # SetExplorerQuickAccess
 # HideQuickAccess               # ShowQuickAccess
-ShowQuickAccess
 ShowThisPCOnDesktop             # HideThisPCFromDesktop
 # ShowUserFolderOnDesktop       # HideUserFolderFromDesktop
 HideDesktopFromThisPC           # ShowDesktopInThisPC
