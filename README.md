@@ -1,13 +1,12 @@
-## Contents
- - [Description](#description)
- - [Usage](#usage)
- - [FAQ](#faq)
- - [Windows builds overview](#windows-builds-overview)
- - [Advanced usage](#advanced-usage)
- - [Maintaining own forks](#maintaining-own-forks)
- - [Contribution guidelines](#contribution-guidelines)
+## FORK
 
-&nbsp;
+This is just a fork from the [wonderful work done here](https://github.com/Disassembler0/Win10-Initial-Setup-Script). I kept the readme below in tact, but please go to the source if you're interested in this. This is just my personal tweaks.
+
+## Quick Usage
+
+    powershell.exe -NoProfile -ExecutionPolicy Bypass -File Win10.ps1 -include Win10.psm1 -preset SeanWcom.preset
+
+# Original info follows ...
 
 ## Description
 
